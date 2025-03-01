@@ -6,9 +6,15 @@ export default {
   // Global CSS files
   css: [
     '~/assets/css/tailwind.css',
-    '~/assets/css/main.css',
+    // '~/assets/css/main.css',
   ],
 
+  postcss: {
+        plugins: {
+          tailwindcss: {},
+          autoprefixer: {},
+        },
+      },
   // Build modules
   buildModules: [
     '@nuxtjs/tailwindcss', // Add Tailwind CSS module
