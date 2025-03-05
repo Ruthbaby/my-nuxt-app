@@ -1,4 +1,4 @@
-// pages/add-item.vue
+<!-- pages/add-item.vue -->
 <script setup>
 import { ref } from 'vue';
 const name = ref('');
