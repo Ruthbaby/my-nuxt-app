@@ -15,6 +15,8 @@ export default {
           autoprefixer: {},
         },
       },
+
+      ssr: true,
   // Build modules
   buildModules: [
     '@nuxtjs/tailwindcss', // Add Tailwind CSS module
@@ -36,5 +38,5 @@ export default {
     },
   },
 
-  compatibilityDate: '2025-02-27',
+  compatibilityDate: '2025-03-04',
 };
