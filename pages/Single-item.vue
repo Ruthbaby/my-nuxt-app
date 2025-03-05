@@ -21,7 +21,7 @@ const addItem = async () => {
 
 <template>
   <div class="p-4">
-    <h1 class="text-l font-bold mx-10 px-4 py-2">Lorem ipsum began as scrambled, nonsensical Latin derived from Cicero’s 1scentury BC text De Finibus Bonorum et Malorum.</h1>
+    <h1 class="text-l font-bold mx-8 px-4 py-2">Lorem ipsum began as scrambled, nonsensical Latin derived from Cicero’s 1scentury BC text De Finibus Bonorum et Malorum.</h1>
     
   <p class="text-sm mt-3 px-4 py-2 mx-8">Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It’s not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real.
 Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It’s not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real.
@@ -31,9 +31,9 @@ Until recently, the prevailing view assumed lorem ipsum was born as a nonsense t
     </p>
     <p class="mt-3 px-4 py-2 mx-8">Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It’s not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real.
 Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It’s not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real.</p>
-      
+
       <button class="bg-teal-400 ml-14 text-white px-4 py-2 my-6 rounded w-1/6">Edit</button>
-       <button class="bg-red-400 text-white px-4 py-2 rounded my-6 mx-8 w-1/6">Delete</button>
+       <button class="bg-[#C34F06] text-white px-4 py-2 rounded my-6 mx-8 w-1/6">Delete</button>
        
       <!-- <p v-if="error" class="">{{ error }}</p>
       <input v-model="name" type="text" placeholder="Item Name" class="block w-full p-2 border rounded mb-2" /> -->
